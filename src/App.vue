@@ -1,12 +1,18 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <!-- <Test></Test> -->
+    <!-- <img src="./assets/logo.png"> -->
+    <!-- <img src="./assets/login.jpg"> -->
     <router-view/>
   </div>
 </template>
 
 <script>
+// import Login from './components/login/Login';
 export default {
+  // components:{
+  // Login,
+  // },
   name: 'App'
 }
 </script>
